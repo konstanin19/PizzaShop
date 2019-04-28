@@ -1,2 +1,3 @@
 
 db/migrate/20190428190701_create_products.rb
+pizzashop.db
