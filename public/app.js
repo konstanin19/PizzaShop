@@ -1,16 +1,6 @@
-function something()
+localStorage.clear(555)
+
+function add_to_cart()
 {
-	
-	var x = localStorage.getItem ('bbb');
-	
-	x = x * 1 + 1;
-
-	localStorage.setItem('bbb',x);
-
-	alert(x);
-}
-
-function add_to_cart
-{
-	alert('Hello from function!');
+	alert('You added pizza with id:');
 }
