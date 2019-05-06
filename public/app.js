@@ -1,11 +1,11 @@
 function something()
 {
 
-var x = window.local.Storage.getItem('bbb');
+var x = window.localStorage.getItem('bbb');
 
 x = x * 1 + 1;
 
-window.local.Storage.setItem('bbb',x);
+window.localStorage.setItem('bbb',x);
 
 alert(x);
 }
